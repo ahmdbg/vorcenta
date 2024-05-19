@@ -1,0 +1,39 @@
+body {
+  height: 3800px;
+  background-color: #323334;
+}
+
+.jumbotron,
+#projects {
+  padding-top: 2rem;
+  background-color: #7b68ee;
+}
+
+.card {
+  background-color: black;
+  color: #eaeaea;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.card-body a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.card-body a:hover {
+  background-color: black;
+  transition: ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  #text {
+    display: none;
+  }
+}
